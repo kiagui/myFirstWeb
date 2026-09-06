@@ -88,22 +88,3 @@ footer {
   background-color: darkgrey;
   color: white;
 }
-
-/*@media (max-width: 600px) {
-  body {
-    margin: 10px;
-  }
-
-  .galleri {
-    grid-template-columns: 1fr;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-}*/
