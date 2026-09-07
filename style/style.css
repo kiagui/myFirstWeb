@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   body {
     margin: 10px;
   }
@@ -56,6 +56,41 @@ footer {
   padding: 0;
 }
 
+.cta {
+  display: block;
+  width: fit-content;
+  margin: 2rem auto; /*2rem luft over/under og auto centrerer den vandret*/
+  background-color: burlywood;
+  color: darkred;
+  padding: 30px 60px;
+  font-size: 2.5rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.cta:hover {
+  background-color: darkgrey;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 10px;
+  }
+
+  .galleri {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}
+
 .Menu ul {
   display: flex; /*for at de vises ved siden af hinanden*/
   gap: 1rem; /*mellemrummet mellem hvert element*/
@@ -71,20 +106,4 @@ footer {
 }
 .Menu a:hover {
   background-color: lightgray;
-}
-
-.cta {
-  display: block;
-  width: fit-content;
-  margin: 2rem auto; /*2rem luft over/under og auto centrerer den vandret*/
-  background-color: burlywood;
-  color: darkred;
-  padding: 30px 60px;
-  font-size: 2.5rem;
-  text-decoration: none;
-  border-radius: 10px;
-}
-.cta:hover {
-  background-color: darkgrey;
-  color: white;
 }
